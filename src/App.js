@@ -1,17 +1,13 @@
 import Navbar from "./Navbar";
+import Home from "./Home";
 
 const App = () => {
-    const title = "Welcome To Fumbakasa Blog"
-    return (
-        <div>
-            <Navbar></Navbar>
-            <div className="container">
-                <div className="col text-center">
-                    <h2 className="m-2">{title}</h2>
-                </div>
-            </div>
-        </div>
-    );
-}
+  return (
+    <div className="light">
+      <Navbar></Navbar>
+      <Home></Home>
+    </div>
+  );
+};
 
 export default App;
