@@ -13,15 +13,15 @@ Fumbakasa Blog is a web application that serves as a platform for creating and s
 
 - **Frontend:**
   - React.js
-  - CSS (or styled-components, etc.) for styling
+  - CSS Framework(Bootstrap) for styling
   - React Router for client-side routing
 - **Backend:**
   - Go (Golang)
   - Gin framework for HTTP routing
   - GORM for interacting with the database
-  - Authentication middleware (e.g., JWT) for user authentication
+  - Authentication middleware JWT for user authentication
 - **Database:**
-  - PostgreSQL (or any other supported by GORM)
+  - PostgreSQL (GORM) using TablePlus
 
 ## Getting Started
 
