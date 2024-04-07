@@ -4,6 +4,7 @@ import BlogList from "./BlogList";
 const Home = () => {
   const [blogs, setBlogs] = useState(null);
   const [isPending, setIsPending] = useState(true);
+  const [error, SetError] = useState(null);
 
   // const handleDelete = (id) => {
   //   const newBlogs = blogs.filter(blog => blog.id !== id);
@@ -13,23 +14,29 @@ const Home = () => {
   useEffect(() => {
     fetch("http://localhost:8000/blogs")
       .then((response) => {
+        // handle response
         if (!response.ok) {
-          console.error("failed");
+          throw Error("Could not fetch data");
         }
         return response.json();
       })
+
       .then((data) => {
-        console.log(data);
         setBlogs(data);
         setIsPending(false);
+        SetError(null);
       })
-      .catch((error) => {
-        console.error("Error", error);
+
+      // catch network error
+      .catch((err) => {
+        setIsPending(false);
+        SetError(err.message);
       });
   }, []);
 
   return (
     <div className="m-2">
+      {error && <div className="text-danger fw-bolder container">{error}</div>}
       {isPending && <div className="text-warning">Loading</div>}
       {blogs && <BlogList blogs={blogs} title="All Blogs"></BlogList>}
       {/* <BlogList blogs={blogs.filter((blog) => blog.author === "NjoxPy")} title="NjoxPy Blogs"></BlogList>
