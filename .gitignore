@@ -28,3 +28,5 @@ notes
 # unecessary components
 component.txt
 desktop.ini
+
+.env
