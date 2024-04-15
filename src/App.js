@@ -1,10 +1,9 @@
+// components
 import Navbar from "./Navbar";
 import Home from "./Home";
-import { 
-  BrowserRouter, 
-  RouterProvider, 
-  Switch }
-   from "react-router-dom";
+import Login from "./forms/Login";
+
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
@@ -12,6 +11,7 @@ const App = () => {
     <div className="light">
       <Navbar></Navbar>
       <Home></Home>
+      <Login />
     </div>
     </BrowserRouter>
   );
