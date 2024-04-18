@@ -21,7 +21,7 @@ const Login = () => {
 
         if (userName.trim() === '' && password.trim() === '') {
             setEnteredNameIsValid(false)
-            console.log("Enter all required fileds.");
+            alert("Enter all required fileds.");
             return;
         }
     }

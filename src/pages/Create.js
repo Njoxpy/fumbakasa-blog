@@ -35,7 +35,8 @@ const Create = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
         }).then(() => {
-            console.log("Halla Madrid!");
+            console.log("Blog Added");
+            alert("Blog Added");
         })
         // reset
         setTitle('');
