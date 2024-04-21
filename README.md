@@ -84,7 +84,7 @@ npm install
 npm start
 ```
 
-4.Access the Fumbakasa Blog in your [web browser at](<http://localhost:3000>).
+4.Access the Fumbakasa Blog in your [web browser at http://localhost:3000](<http://localhost:3000>).
 
 ## Contributing
 

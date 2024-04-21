@@ -12,15 +12,14 @@ const Layout = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                
+
                                 <NavLink to="/" className="nav-link" aria-current="page">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                
+
                                 <NavLink to="/create" className="nav-link" aria-current="page">Add Blog</NavLink>
                             </li>
                             <li className="nav-item">
-                                
                                 <NavLink to="/help" className="nav-link" aria-current="page">Help</NavLink>
                             </li>
                         </ul>

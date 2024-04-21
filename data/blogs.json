@@ -1,46 +1,58 @@
 {
-    "blogs": [
-        {
-            "title": "React Hooks: Understanding useState",
-            "body": "In this blog post, we explore the useState hook in React and how it can be used to manage component state.",
-            "author": "NjoxPy",
-            "id": 1
-        },
-        {
-            "title": "Building Modern Web Applications with React",
-            "body": "In this blog post, we explore the useState hook in React and how it can be used to manage component state.",
-            "author": "Chax",
-            "id": 2
-        },
-        {
-            "title": "Introduction to Node.js",
-            "body": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to build scalable network applications. This blog post provides an introduction to Node.js and its key features.",
-            "author": "Neicore",
-            "id": 3
-        },
-        {
-            "title": "Mastering CSS Grid Layout",
-            "body": "CSS Grid Layout is a powerful tool for creating complex layouts with ease. In this blog post, we dive deep into CSS Grid and explore its various features.",
-            "author": "Elvis",
-            "id": 4
-        },
-        {
-            "title": "Imposter Syndrome",
-            "body": "Many individuals, especially those new to the tech industry, may battle imposter syndrome, feeling inadequate or questioning their skills and qualifications.",
-            "author": "Alpha",
-            "id": 5
-        },
-        {
-            "title": "Limited Access to Mentorship",
-            "body": "Aspiring developers often lack access to mentors who can provide guidance and support in their career journey.",
-            "author": "NjoxPy",
-            "id": 6
-        },
-        {
-            "title": "Inconsistent Code Quality Standards",
-            "body": "Developers working on collaborative projects may face difficulties in maintaining consistent code quality standards within the team.",
-            "author": "Neicore",
-            "id": 7
-        }
-    ]
+  "blogs": [
+    {
+      "title": "React Hooks: Understanding useState",
+      "body": "In this blog post, we explore the useState hook in React and how it can be used to manage component state.",
+      "author": "NjoxPy",
+      "id": "1"
+    },
+    {
+      "title": "Building Modern Web Applications with React",
+      "body": "In this blog post, we explore the useState hook in React and how it can be used to manage component state.",
+      "author": "Chax",
+      "id": "2"
+    },
+    {
+      "title": "Introduction to Node.js",
+      "body": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to build scalable network applications. This blog post provides an introduction to Node.js and its key features.",
+      "author": "Neicore",
+      "id": "3"
+    },
+    {
+      "title": "Mastering CSS Grid Layout",
+      "body": "CSS Grid Layout is a powerful tool for creating complex layouts with ease. In this blog post, we dive deep into CSS Grid and explore its various features.",
+      "author": "Elvis",
+      "id": "4"
+    },
+    {
+      "title": "Imposter Syndrome",
+      "body": "Many individuals, especially those new to the tech industry, may battle imposter syndrome, feeling inadequate or questioning their skills and qualifications.",
+      "author": "Alpha",
+      "id": "5"
+    },
+    {
+      "title": "Limited Access to Mentorship",
+      "body": "Aspiring developers often lack access to mentors who can provide guidance and support in their career journey.",
+      "author": "NjoxPy",
+      "id": "6"
+    },
+    {
+      "title": "Inconsistent Code Quality Standards",
+      "body": "Developers working on collaborative projects may face difficulties in maintaining consistent code quality standards within the team.",
+      "author": "Neicore",
+      "id": "7"
+    },
+    {
+      "id": "e48f",
+      "title": "Website Design Steps from Zero To Hero",
+      "body": "Absolutely! Designing a website involves a series of steps and procedures to ensure a seamless user experience and effective communication of information. Here's a breakdown of the procedures into actionable steps.",
+      "author": "Neicore"
+    },
+    {
+      "id": "6c0a",
+      "title": "Wireframing and Prototyping For Beginers.",
+      "body": "Description: Create wireframes and prototypes to visualize the layout and functionality of the website before moving to full design and development.\nExample: Use tools like Adobe XD, Sketch, or Figma to create wireframes depicting the placement of elements such as navigation menus, content sections, and call-to-action buttons.",
+      "author": "Alpha"
+    }
+  ]
 }
