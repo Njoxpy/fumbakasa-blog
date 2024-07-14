@@ -32,7 +32,7 @@ const Signup = () => {
                     <label htmlFor="exampleInputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="enter password" onChange={handlePasswordChange}/>
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Signup</button>
             </form>
         </div>
     );
