@@ -15,13 +15,6 @@ Fumbakasa Blog is a web application that serves as a platform for creating and s
   - React.js
   - CSS Framework(Bootstrap) for styling
   - React Router for client-side routing
-- **Backend:**
-  - Go (Golang)
-  - Gin framework for HTTP routing
-  - GORM for interacting with the database
-  - Authentication middleware JWT for user authentication
-- **Database:**
-  - PostgreSQL (GORM) using TablePlus
 
 ## Getting Started
 
@@ -29,9 +22,9 @@ To run the Fumbakasa Blog locally, follow these steps:
 
 1.Clone the repository:
 
-   ```bash
-   git clone https://github.com/Njoxpy/Fumbakasa-Blog
-   ```
+```bash
+git clone https://github.com/Njoxpy/Fumbakasa-Blog
+```
 
 1. Navigate to the project directory:
 
@@ -39,52 +32,25 @@ To run the Fumbakasa Blog locally, follow these steps:
 cd fumbakasa-blog
 ```
 
-2.Set up the backend:
-
-- Install Go if you haven't already: <https://golang.org/doc/install>
-- Install dependencies:
+2. Start project:
 
 ```sh
-go mod tidy
-```
+npm i
 
-- Set up the database (ensure PostgreSQL is installed and running):
-
-```sh
-# Create a PostgreSQL database
-createdb fumbakasa_blog
-
-# Run database migrations
-go run ./migrate.go
-```
-
-- Run the backend server:
-
-```sh
-go run ./main.go
-```
-
-3.Set up the frontend:
-
-- Navigate to the frontend directory:
-
-```sh
-cd frontend
-```
-
-- Install dependencies:
-
-```sh
-npm install
-```
-
-- Run the frontend server:
-
-```sh
 npm start
 ```
 
-4.Access the Fumbakasa Blog in your [web browser at http://localhost:3000](<http://localhost:3000>).
+3. Start json-server
+
+```sh
+# install json-server
+npm i -g json-server
+
+# start server
+json-server data/blogs.json --port 3000
+```
+
+4.Access the Fumbakasa Blog in your [web browser at http://localhost:3000](http://localhost:3000).
 
 ## Contributing
 
