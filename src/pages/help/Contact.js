@@ -34,7 +34,7 @@ const Contact = () => {
     }
     return (
         <div>
-            <section className="container py-5">
+            <section className="container p-5">
                 <div className="row">
                     <div className="col-md-6">
                         <h3>Kama una dukuduku Fikisha hapa</h3>

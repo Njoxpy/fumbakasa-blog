@@ -53,6 +53,12 @@
       "title": "Wireframing and Prototyping For Beginers.",
       "body": "Description: Create wireframes and prototypes to visualize the layout and functionality of the website before moving to full design and development.\nExample: Use tools like Adobe XD, Sketch, or Figma to create wireframes depicting the placement of elements such as navigation menus, content sections, and call-to-action buttons.",
       "author": "Alpha"
+    },
+    {
+      "id": "22fc",
+      "title": "Understand the build process",
+      "body": "    Build Process: Understand the build process using tools like Create React App, Vite, or Webpack.",
+      "author": "Neicore"
     }
   ]
 }
