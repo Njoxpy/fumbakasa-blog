@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Kilimokacha helps farmers grow better by giving them access to farming tips, market updates, and expert advice. We're here to support you in making your farming more productive and profitable.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "NjoxPy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "hbs": "^4.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.3",
+    "validator": "^13.12.0"
+  }
+}
