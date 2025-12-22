@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+
+# build output
+/build
+/dist
+/out
+
+# misc
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+reportWebVitals.js
+coverage/
+.vscode/
+
+# editor-specific
+.idea/
+*.iml
+*.iws
+*.ipr
